@@ -1,0 +1,332 @@
+@font-face{
+	font-family:"Montserrat";
+	src: url("../fonts/Montserrat.otf") format("opentype");
+	font-style: normal;
+	font-weight: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+body{
+	height:2700px;
+	max-width:3000px;
+    width:100%;
+   
+
+}
+.container{
+	max-width:1000px;
+    width:100%;
+    margin left: 50px;
+
+ }
+
+header{
+    max-width:1000px;
+    width:100%;
+    max-height:170px;
+    height:100%;
+    margin:auto;
+    text-align: center;
+}
+
+#logo img{
+    width:600px;
+    margin-right: 100px;
+}
+
+nav{
+ 	padding: 10px;
+ }
+
+ #navbarText >ul li{
+ 	margin-left: 30px;
+ }
+
+ #navbarText ul li >a{
+   color: purple;
+   font-size: 1.1rem;
+   font-weight: 500;
+ }
+
+.iconos{
+	display: flex;
+    float:right;
+    min-width:200px;
+    line-height: 20px;
+    margin: 5px 0px 5px 100px; 
+} 
+
+.iconos >li {
+    float:left;
+    width:40px;
+    height:40px;
+    margin:5px;
+    border-radius:100%;
+    list-style: none;
+    background-color: #E7D9E5;
+    padding-top: 8px;
+    padding-left: 13px;
+}
+
+#prir1{
+  
+   margin-right: 10px;
+   max-width: 1000px;
+
+  }
+
+
+#prir1 input{
+   display:inline-block;
+   justify-content: space-between; 
+   margin-top: 35px;
+   margin-left: 80px;
+ }
+
+ #prir2{
+ 	display: flex;
+ 	max-width:840px;
+ 	width: 100%;
+ 	justify-content: space-between; 
+ 	margin-left:80px;
+ 	line-height: 10px;
+ 	padding-bottom: 5px;
+ 	max-height: 20px;
+ 	padding-left: 10px;
+ }
+
+ #prir2 p{
+ 	color: #5629EF;
+ 	font-weight: 400;
+ 	margin-right: 20px;
+ 	font-size: 1.1rem;
+
+ }
+ 
+ #cole h2{
+    max-width: 170px;
+ 	border-bottom: 4px solid purple;
+ 	margin-left: 400px;
+ 	margin-bottom: 50px;
+ 	margin-top: 50px;
+ 	font-family: 'Montserrat';
+ 	text-align: center;
+ 	padding-bottom: 3px;
+
+ }
+ #crasu{
+ 	margin-top: 100px;
+ 
+ }
+ #prir3{
+ 	display: flex;
+ 	max-width:850px;
+ 	width: 100%;
+ 	justify-content: space-between; 
+ 	margin-left:60px;
+ 	line-height: 10px;
+ 	padding-bottom: 5px;
+ 	max-height: 20px;
+ 	padding-left: 25px;
+ }
+
+ button{
+ 	border:2px solid #26D52B; 
+ 	min-height: 35px;
+ 	min-width: 145px;
+ 	color: #388FBE;
+ 	border-radius: 10px;
+ 	line-height: 15px;
+ 	margin-right: 10px;
+ 	font-weight:700;
+ }
+ button:hover{
+  	font-weight: bold;
+ 	border:6px solid #83a457; 
+ 	color: #FDF7Cf;
+ 	background-color:#380fc2;
+ }
+
+hr{
+	margin-top: 100px;
+	border: 3px solid #E7D9E5;
+
+}
+
+#black{
+	background-color: #83a457;
+	max-width: 1000px;
+	min-height:285px;
+	height: 100%;
+}
+
+
+#trans{
+	float: right;
+}
+
+#trans h1  {
+	color: #5C4268;
+	margin-right: 140px;
+	margin-top: 70px;
+	font-weight: bold;
+}
+
+#trans h2  {
+	margin-top: 5px;
+}
+
+#trons{
+	background-color: #5C4268;
+	min-height:285px;
+}
+
+#block{
+	min-width: 900;
+	opacity:0.8;
+}
+.titulo{
+	margin-left: 180px;
+	color: #FDF7Cf;
+		
+}
+
+.titulo i{
+	margin-left: 50px;
+	color: #FDF7Cf;
+}
+
+#mace{
+	max-height: 285px;
+}
+
+#macer{
+	padding-top: 100px;
+}
+	
+#macer h1{
+	margin-left: 170px;
+	color:  #5C4268;
+	font-weight: bold;
+}
+
+#macer h2{
+	text-align: center;
+	margin-left: 80px;
+	color: #C65D4D;
+	font-size: 2.5rem;
+}
+
+#mace img{
+	display: flex;
+	float: right;
+	line-height: 100px;
+	margin-left: 100px;
+
+}	
+
+#politi{
+	margin-top: 70px;
+	background-color: #C65D4D;
+	min-width: 900px;
+	min-height:450px;
+}	
+
+#politi img{
+	display: flex;
+	float: right;
+	border-radius: 100%;
+	border: 3px solid #FDF7Cf; 
+    margin: 50px 20px;
+	
+	
+}
+
+#politi h2{
+	color: #FDF7Cf;
+	text-align: center;
+	padding-top:80px;
+	margin-left:30px;
+	
+	
+}
+a {
+  text-decoration: none;
+  color: #bef3ae;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: #ffab9d;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.96);
+}
+#botonci{
+	margin: 70px 220px;
+}
+
+footer{
+    max-width: 1000px;
+    width: 100%;
+    background-color: #404040;
+    min-height: 70px;
+    height: 100%;
+    text-align: right;
+ }
+
+ footer p{
+   color: white;
+   margin-left:120px;
+    font-size:15px;
+    max-width: 500px;
+    line-height: 60px;
+   
+ }
